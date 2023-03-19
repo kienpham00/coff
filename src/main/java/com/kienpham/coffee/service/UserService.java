@@ -10,6 +10,7 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.mail.MessagingException;
@@ -48,7 +49,10 @@ public class UserService implements UserDetailsService {
         email = sb.toString();
 
         String newPass = genNewPass();
-        user.setPassWord(newPass);
+
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+       
+        user.setPassWord(encoder.encode(newPass));
         userRepository.save(user);
         publisher.publishEvent(new SendMailEvent(this,user));
 
