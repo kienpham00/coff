@@ -14,15 +14,15 @@ java -jar coffee-0.0.1-SNAPSHOT.jar
 
 
 ## Thông tin DB
-```aidl
-Vào link này để login DB: 
-http://www.phpmyadmin.co
+```
+ Vào link này để login DB: 
+ http://www.phpmyadmin.co
 ```
 ```
 Host: sql12.freesqldatabase.com
-Database name: sql12606865
-Database user: sql12606865
-Database password: xE5GnyFrUE
+Database name: sql12607345
+Database user: sql12607345
+Database password: etjyKtf4Ys
 Port number: 3306
 
 
