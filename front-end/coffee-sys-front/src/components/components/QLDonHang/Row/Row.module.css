@@ -1,0 +1,30 @@
+.itemText.itemText {
+  width: 64px;
+  height: initial;
+  align-self: stretch;
+}
+.itemText2.itemText2 {
+  width: 143px;
+  height: initial;
+  align-self: stretch;
+}
+.itemText3.itemText3 {
+  width: 129px;
+  height: initial;
+  align-self: stretch;
+}
+.itemText4.itemText4 {
+  width: 119px;
+  height: initial;
+  align-self: stretch;
+}
+.itemButton1.itemButton1 {
+  width: 362px;
+  height: initial;
+  align-self: stretch;
+}
+.root {
+  width: 849px;
+  height: 66px;
+  place-content: space-between;
+}

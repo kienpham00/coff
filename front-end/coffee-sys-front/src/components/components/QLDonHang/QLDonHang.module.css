@@ -1,0 +1,612 @@
+.row.row {
+  width: initial;
+  height: initial;
+  flex: 1;
+  align-self: stretch;
+  background-color: #fff;
+}
+.itemText.itemText.itemText {
+  place-content: center;
+}
+.tEXT {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 50px;
+  flex: initial;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT2 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT3 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT4 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.itemText2.itemText2 {
+  width: 362px;
+  height: initial;
+  align-self: stretch;
+}
+.tEXT5 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.row2.row2 {
+  width: initial;
+  height: initial;
+  flex: 1;
+  align-self: stretch;
+}
+.tEXT6 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT7 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT8 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT9 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.row3.row3 {
+  width: initial;
+  height: initial;
+  flex: 1;
+  align-self: stretch;
+}
+.tEXT10 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT11 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT12 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT13 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.row4.row4 {
+  width: initial;
+  height: initial;
+  flex: 1;
+  align-self: stretch;
+}
+.tEXT14 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT15 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT16 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT17 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.row5.row5 {
+  width: initial;
+  height: initial;
+  flex: 1;
+  align-self: stretch;
+}
+.tEXT18 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT19 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT20 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tEXT21 {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.root {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle21 {
+  position: absolute;
+  left: 250px;
+  right: 48px;
+  top: 115px;
+  bottom: 423px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px 10px #0000001a;
+}
+.menu_FILL0_wght400_GRAD0_opsz4 {
+  position: absolute;
+  left: 21px;
+  top: 24px;
+  width: 48px;
+  height: 48px;
+  background-image:/* webpackIgnore: true */ url('assets/menu_FILL0_wght400_GRAD0_opsz4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hETHONGQUANLYCUAHANGTHECOFFEEH {
+  color: #4f4f4f;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 87px;
+  top: 36px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.qUANLYONHANG {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 275px;
+  top: 139px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame1 {
+  position: absolute;
+  left: 264px;
+  top: 176px;
+  width: 1113px;
+  height: 386px;
+  flex-direction: column;
+}
+.rectangle17 {
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  align-self: stretch;
+  background-color: #d9d9d9;
+}
+.rectangle18 {
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  align-self: stretch;
+  background-color: #d9d9d9;
+}
+.rectangle19 {
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  align-self: stretch;
+  background-color: #d9d9d9;
+}
+.rectangle20 {
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  align-self: stretch;
+  background-color: #d9d9d9;
+}
+.layers_FILL0_wght400_GRAD0_ops {
+  position: absolute;
+  left: 26px;
+  top: 149px;
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/layers_FILL0_wght400_GRAD0_ops.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quanLySanPham {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 68px;
+  top: 156px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.layers_FILL0_wght400_GRAD0_ops2 {
+  position: absolute;
+  left: 26px;
+  top: 196px;
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/layers_FILL0_wght400_GRAD0_ops2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quanLyOnHang {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 68px;
+  top: 203px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.layers_FILL0_wght400_GRAD0_ops3 {
+  position: absolute;
+  left: 26px;
+  top: 243px;
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/layers_FILL0_wght400_GRAD0_ops3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.layers_FILL0_wght400_GRAD0_ops4 {
+  position: absolute;
+  left: 26px;
+  top: 285px;
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/layers_FILL0_wght400_GRAD0_ops4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.layers_FILL0_wght400_GRAD0_ops5 {
+  position: absolute;
+  left: 26px;
+  top: 331px;
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/layers_FILL0_wght400_GRAD0_ops5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quanLyKhachHang {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 250px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.quanLyNhanVien {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 292px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.quanLyTaiKhoan {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 338px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.dANHMUCQUANLY {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 21px;
+  top: 115px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.ANGNHAPHETHONG {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 21px;
+  top: 382px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.taiKhoan {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 67px;
+  top: 426px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.account_circle_FILL0_wght400_G {
+  position: absolute;
+  left: 28px;
+  top: 421px;
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/account_circle_FILL0_wght400_G.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logout_FILL0_wght400_GRAD0_ops {
+  position: absolute;
+  left: 146px;
+  top: 421px;
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/logout_FILL0_wght400_GRAD0_ops.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.OiMatKhau {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 77px;
+  top: 480px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.key_FILL0_wght400_GRAD0_opsz48 {
+  position: absolute;
+  left: 40px;
+  top: 473px;
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/key_FILL0_wght400_GRAD0_opsz48.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

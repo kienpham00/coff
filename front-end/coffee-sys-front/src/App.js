@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from "react";
 import axios from "axios";
+import QLDonHang from './components/components/QLDonHang/QLDonHang';
 
 const baseUrl = 'http://localhost:8082/';
 function App() {
@@ -48,19 +49,21 @@ export default App;
 
 const UserData = ({ userData, logout }) => {
   return (
-    <>
-      <h2>
-        FullName: {userData.fullName}
-      </h2>
-      <h2>
-        Email: {userData.email}
-      </h2>
-      <h2>
-        Role: {userData.role}
-      </h2>
-      <button className="font-medium text-indigo-600 hover:text-indigo-500"
-        onClick={logout}>Logout</button>
-    </>
+    <QLDonHang userData={userData} logout={logout}/>
+    // <>
+   
+    //   <h2>
+    //     FullName: {userData.fullName}
+    //   </h2>
+    //   <h2>
+    //     Email: {userData.email}
+    //   </h2>
+    //   <h2>
+    //     Role: {userData.role}
+    //   </h2>
+    //   <button className="font-medium text-indigo-600 hover:text-indigo-500"
+    //     onClick={logout}>Logout</button>
+    // </>
   )
 }
 
