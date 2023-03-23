@@ -49,14 +49,11 @@ public class UserService implements UserDetailsService {
         email = sb.toString();
 
         String newPass = genNewPass();
-
+        String passString = newPass;
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-       
         user.setPassWord(encoder.encode(newPass));
         userRepository.save(user);
-        publisher.publishEvent(new SendMailEvent(this,user));
-
-//        mailService.sendMail(user.getUserEmail(),newPass);
+        mailService.sendMail(user.getUserEmail(),passString);
         return BaseResponse.builder()
                 .success(true)
                 .message("New password jut sent to: "+email)
