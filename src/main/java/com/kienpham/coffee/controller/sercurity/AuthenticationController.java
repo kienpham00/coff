@@ -6,28 +6,40 @@ import com.kienpham.coffee.service.UserService;
 import dto.BaseResponse;
 import dto.request.AuthenticationRequest;
 import dto.response.AuthenticationResponse;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.SmartValidator;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.mail.MessagingException;
+import javax.validation.Valid;
 
 @RestController
 public class AuthenticationController {
-
-    private final AuthenticationService authenticationService;
+    @Autowired
+    SmartValidator validator;
+    private final AuthenticationService cAuthentication;
     private final UserService userService;
 
-    public AuthenticationController(AuthenticationService authenticationService, UserService userService) {
-        this.authenticationService = authenticationService;
+    public AuthenticationController(AuthenticationService cAuthentication, UserService userService) {
+        this.cAuthentication = cAuthentication;
         this.userService = userService;
     }
     @PostMapping("/p/authenticate")
-    public BaseResponse authenticate(@RequestBody AuthenticationRequest request){
-        AuthenticationResponse response = authenticationService.authenticate(request);
-        return BaseResponse.builder().success(true).data(response).build();
+    public BaseResponse doLogin(@RequestBody AuthenticationRequest objLogin ,BindingResult result){
+        validator.validate(objLogin, result);
+        if (result.hasErrors()) {
+            return BaseResponse.builder().success(false).message("Invalid Data").build();
+        }
+        BaseResponse response = cAuthentication.verification(objLogin);
+
+        return response;
+//        return BaseResponse.builder().success(true).data(response).build();
     }
 
     @PostMapping("/p/forgotPass/{userName}")
@@ -36,7 +48,7 @@ public class AuthenticationController {
     }
 
     public static void main(String[] args) {
-        String pass = "kien123";
+        String pass = "1";
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         System.out.println(encoder.encode(pass));
     }

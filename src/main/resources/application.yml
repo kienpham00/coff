@@ -3,27 +3,12 @@ spring:
   datasource:
     driver:
       class: com.mysql.cj.jdbc.Driver
-    url: 'jdbc:mysql://sql12.freesqldatabase.com:3306/sql12607345'
-    username: sql12607345
-    password: etjyKtf4Ys
-
-    testWhileIdle: true
-    validationQuery: SELECT 1
-    hikari:
-      maximum-pool-size: 100
-      minimum-idle: 1
-      connectionTimeout: 30000 #30s
-      idleTimeout: 600000 #10 minutes
-      maxLifetime: 1800000 #30 minutes
-  jpa:
-    hibernate:
-      naming:
-        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
-        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
-      hibernate:
-        format_sql: true
-    show-sql: true
-    database-platform: org.hibernate.dialect.Oracle12cDialect
+#    url: 'jdbc:mysql://sql12.freesqldatabase.com:3306/sql12607345'
+#    username: sql12607345
+#    password: etjyKtf4Ys
+    url: 'jdbc:mysql://localhost:3306/DBtest'
+    username: kienpt
+    password: 12345
 server:
   port: 8082
 jwt:
