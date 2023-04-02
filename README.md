@@ -20,9 +20,9 @@ java -jar coffee-0.0.1-SNAPSHOT.jar
 ```
 ```
 Host: sql12.freesqldatabase.com
-Database name: sql12607345
-Database user: sql12607345
-Database password: etjyKtf4Ys
+Database name: sql12610463
+Database user: sql12610463
+Database password: EJ5zjR6mLP
 Port number: 3306
 
 

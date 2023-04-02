@@ -3,9 +3,9 @@ spring:
   datasource:
     driver:
       class: com.mysql.cj.jdbc.Driver
-    url: 'jdbc:mysql://sql12.freesqldatabase.com:3306/sql12607345'
-    username: sql12607345
-    password: etjyKtf4Ys
+    url: 'jdbc:mysql://sql12.freesqldatabase.com:3306/sql12610463'
+    username: sql12610463
+    password: EJ5zjR6mLP
 
     testWhileIdle: true
     validationQuery: SELECT 1
